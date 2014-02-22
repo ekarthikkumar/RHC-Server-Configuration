@@ -25,7 +25,7 @@ RH Cloud(Remote Server) Project setup
 
 **2 . Setup RHC in Local Machine :**
 
-`~# rhc setup -l ekarthikkumar@gmail.com` (ekarthikkumar@gmail.com is a registered email in RHC Account)  
+`~# rhc setup -l karthikkumar@gmail.com` (karthikkumar@gmail.com is a registered email in RHC Account)  
 `Password: *********`  
 
 **3 . Create new application :**  
@@ -106,7 +106,7 @@ add required application need to be install. It should be given install_requires
 `~/python/wsgi# rm -rf application`
 `~/python/wsgi# vi application`
 
-Add this details into application file (for more info : https://gist.github.com/suhailvs/6774966 )
+Add this details into application file (for more info : https://gist.github.com/ekarthikkumar/8283468 )
 
     #!/usr/bin/python
     import os, sys
